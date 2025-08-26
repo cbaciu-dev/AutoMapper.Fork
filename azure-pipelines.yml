@@ -1,0 +1,63 @@
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  - name: buildConfiguration
+    value: 'Release'
+  - name: Major
+    value: '1'
+  - name: Minor
+    value: $[format('{0:yyMMdd}', pipeline.startTime)]
+  - name: isMain
+    value: ${{eq(variables['Build.SourceBranch'], 'refs/heads/main')}}
+  - name: isDevelopment
+    value: ${{eq(variables['Build.SourceBranch'], 'refs/heads/development')}}
+  - name: Patch
+    ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
+      value: '$(Build.BuildId)'
+    ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/development') }}:
+      value: '$(Build.BuildId)-alpha'
+    ${{ if and(ne(variables['Build.SourceBranch'], 'refs/heads/main'), ne(variables['Build.SourceBranch'], 'refs/heads/development')) }}:
+      value: '$(Build.BuildId)-beta'
+
+jobs:
+- job: Build
+  displayName: 'Build'
+  steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '8.0.x'
+      
+  - task: DotNetCoreCLI@2
+    displayName: 'Restore NuGet Packages'
+    inputs:
+      command: 'restore'
+      projects: '*.csproj'
+
+  - task: NuGetAuthenticate@1
+  
+  - task: DotNetCoreCLI@2
+    displayName: 'Build Solution'
+    inputs:
+      command: 'build'
+      projects: '*.csproj'
+      arguments: '--configuration $(buildConfiguration)'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'dotnet pack'
+    inputs:
+      command: pack
+      packagesToPack: '*.csproj'
+      versioningScheme: byEnvVar
+      versionEnvVar: 'CustomVersion'
+    env:
+      CustomVersion: $(Major).$(Minor).$(Patch)
+
+  - task: NuGetCommand@2
+    displayName: 'NuGet Push'
+    inputs:
+      command: 'push'
+      packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+      nuGetFeedType: 'internal'
+      publishVstsFeed: 'e03a7aa5-8ad8-47a0-ab12-5219d05d1055/a986a75a-7807-4957-80b0-774c5f149a29'

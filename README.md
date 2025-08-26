@@ -1,20 +1,29 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# BKS.CustomMapper
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+A lightweight, explicit, and high-performance object-to-object mapping library designed as a drop-in replacement for AutoMapper in the EMZ solution. This package is intended for internal use and will be distributed via a private BKS.EMZ feed.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+---
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Why BKS.CustomMapper?
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+AutoMapper is moving to a commercial license. BKS.CustomMapper provides a fully in-house, open, and maintainable alternative with similar core features, optimized for the EMZ solution's needs.
+
+---
+
+## Features
+
+- **Explicit Mapping Profiles:** Define clear, type-safe mapping rules using profiles.
+- **Custom Member Mapping:** Support for custom value resolvers, converters, and member-level configuration.
+- **Collection & Nested Mapping:** Handles lists, arrays, and nested objects.
+- **Ignore & Flattening:** Easily ignore or flatten properties.
+- **Validation API:** Detect unmapped or duplicate members at configuration time.
+- **Zero Runtime Reflection:** All mapping plans are compiled and cached after configuration.
+- **Dependency Injection Ready:** Integrates with Microsoft.Extensions.DependencyInjection.
+- **No Hidden Global State:** All configuration is explicit and controlled by you.
+
+---
+
+## Installation
+
+1. **Add the internal NuGet feed** (Azure Artifacts) to your `NuGet.config`.
+2. **Install the package:** services.AddMappingServices(executingAssembly);
