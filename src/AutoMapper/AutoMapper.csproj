@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Summary>A convention-based object-object mapper.</Summary>
+    <Description>A convention-based object-object mapper.</Description>
+    <TargetFrameworks>netstandard2.0;net8.0;net9.0</TargetFrameworks>
+    <LangVersion>13.0</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>BKS.CustomMapper</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <PackageId>BKS.CustomMapper</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://automapper.io</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+
+    <MinVerDefaultPreReleaseIdentifiers>preview.0</MinVerDefaultPreReleaseIdentifiers>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+    <BaselineAllAPICompatError>true</BaselineAllAPICompatError>
+    <AdditionalApiCompatOptions>--exclude-non-browsable --exclude-compiler-generated</AdditionalApiCompatOptions>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(IsWindows)' == 'true' ">
+    <TargetFrameworks>$(TargetFrameworks);net462</TargetFrameworks>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ResolvedMatchingContract Include="..\LastMajorVersionBinary\AutoMapper.dll"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png" Pack="true" PackagePath="" Visible="False"/>
+    <None Include="..\..\README.md" Pack="true" PackagePath="" Visible="False"/>
+    <None Include="..\..\LICENSE.md" Pack="true" PackagePath="" Visible="False"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="[8.0.0, )"/>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="[8.0.0, )"/>
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="[8.2.0, )"/>
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="[6.0.0, )" Condition="'$(TargetFramework)' == 'netstandard2.0'" />
+    <PackageReference Include="System.Reflection.Emit" Version="[4.7.0, )" Condition="'$(TargetFramework)' == 'netstandard2.0'" />
+    <PackageReference Include="PolySharp" Version="1.15.0" Condition="'$(TargetFramework)' == 'netstandard2.0'" PrivateAssets="All" />
+    
+    <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="System.Linq.Expressions.Expression" Static="true"/>
+    <Using Include="AutoMapper.Execution.ExpressionBuilder" Static="true"/>
+    <Using Include="AutoMapper.Execution"/>
+    <Using Include="AutoMapper.Configuration"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="BKS.CustomMapper.UnitTests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
+    <InternalsVisibleTo Include="BKS.CustomMapper.IntegrationTests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
+    <InternalsVisibleTo Include="BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
+  </ItemGroup>
+</Project>
