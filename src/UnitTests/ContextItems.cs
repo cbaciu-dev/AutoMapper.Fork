@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public class When_mapping_with_context_state
 {
     public class Source

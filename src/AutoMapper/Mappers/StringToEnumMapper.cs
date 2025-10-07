@@ -1,6 +1,6 @@
 #if NET8_0_OR_GREATER
 using System.Runtime.Serialization;
-namespace AutoMapper.Internal.Mappers;
+namespace BKS.CustomMapper.Internal.Mappers;
 public sealed class StringToEnumMapper : IObjectMapper
 {
     private static readonly MethodInfo EqualsMethod = typeof(StringToEnumMapper).GetMethod(nameof(StringCompareOrdinalIgnoreCase));
@@ -42,7 +42,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.Serialization;
-namespace AutoMapper.Internal.Mappers
+namespace BKS.CustomMapper.Internal.Mappers
 {
     using static Execution.ExpressionBuilder;
     using static Expression;

@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 /// <summary>
 /// Wraps mapping exceptions. Check exception.ToString() for the full error message.

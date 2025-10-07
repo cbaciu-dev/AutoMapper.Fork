@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.MaxDepth;
+namespace BKS.CustomMapper.IntegrationTests.MaxDepth;
 
 public class NavigationPropertySO(DatabaseFixture databaseFixture) : IntegrationTest<NavigationPropertySO.DatabaseInitializer>(databaseFixture)
 {

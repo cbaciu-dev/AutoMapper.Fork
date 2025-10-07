@@ -1,5 +1,5 @@
-﻿using AutoMapper.QueryableExtensions.Impl;
-namespace AutoMapper.UnitTests.Projection;
+using BKS.CustomMapper.QueryableExtensions.Impl;
+namespace BKS.CustomMapper.UnitTests.Projection;
 public class ProjectionMappers : AutoMapperSpecBase
 {
     class Source
@@ -32,3 +32,4 @@ public class ProjectionMappers : AutoMapperSpecBase
             context.SourceType.IsEnum && Enum.GetUnderlyingType(context.SourceType) == context.DestinationType;
     }
 }
+

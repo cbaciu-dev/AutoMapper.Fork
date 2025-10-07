@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class InheritForPath : AutoMapperSpecBase
 {
@@ -402,3 +402,4 @@ public class ForPathWithConditions : AutoMapperSpecBase
         model.CustomerHolder.Customer.Value.ShouldBe(100);
     }
 }
+

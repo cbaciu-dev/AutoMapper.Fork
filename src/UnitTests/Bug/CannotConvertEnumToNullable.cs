@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class CannotConvertEnumToNullable
 {
@@ -30,3 +30,4 @@ public class CannotConvertEnumToNullable
         destination.Dummy.ShouldBe((int)DummyTypes.Bar);
     }
 }
+

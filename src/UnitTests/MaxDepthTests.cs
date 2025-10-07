@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class MaxDepthTests
 {
@@ -99,3 +99,4 @@ public class MaxDepthTests
         }
     }
 }
+

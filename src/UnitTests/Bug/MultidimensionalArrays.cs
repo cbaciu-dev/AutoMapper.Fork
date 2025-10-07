@@ -1,6 +1,6 @@
-﻿using AutoMapper.Internal.Mappers;
+using BKS.CustomMapper.Internal.Mappers;
 
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class MultidimensionalArrays : AutoMapperSpecBase
 {
@@ -73,3 +73,4 @@ public class FillMultidimensionalArray : NonValidatingSpecBase
         index.ShouldBe(_source.Length);
     }
 }
+

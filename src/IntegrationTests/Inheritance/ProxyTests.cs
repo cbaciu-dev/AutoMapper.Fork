@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.Inheritance;
+namespace BKS.CustomMapper.IntegrationTests.Inheritance;
 
 public class ProxyTests(DatabaseFixture databaseFixture) : IntegrationTest<ProxyTests.DatabaseInitializer>(databaseFixture)
 {

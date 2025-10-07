@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class IgnoreShouldBeInheritedIfConventionCannotMap
 {
@@ -47,3 +47,4 @@ public class IgnoreShouldBeInheritedIfConventionCannotMap
         config.AssertConfigurationIsValid();
     }
 }
+

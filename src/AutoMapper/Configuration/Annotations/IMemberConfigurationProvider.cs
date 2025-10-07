@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Configuration;
+﻿namespace BKS.CustomMapper.Configuration;
 
 public interface IMemberConfigurationProvider
 {

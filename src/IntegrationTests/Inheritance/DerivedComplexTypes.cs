@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.Inheritance;
+namespace BKS.CustomMapper.IntegrationTests.Inheritance;
 
 public class DerivedComplexTypes(DatabaseFixture databaseFixture) : IntegrationTest<DerivedComplexTypes.DatabaseInitializer>(databaseFixture)
 {

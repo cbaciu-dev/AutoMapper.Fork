@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class One
 {
@@ -52,3 +52,4 @@ public class AutoMapperBugTest
         two.Stuff.Count().ShouldBe(2);
     }
 }
+

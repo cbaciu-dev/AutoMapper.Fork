@@ -1,6 +1,6 @@
-﻿using AutoMapper.Internal.Mappers;
+using BKS.CustomMapper.Internal.Mappers;
 
-namespace AutoMapper.UnitTests.Mappers;
+namespace BKS.CustomMapper.UnitTests.Mappers;
 
 public class ConvertMapperTests : AutoMapperSpecBase
 {
@@ -68,3 +68,4 @@ public class ConvertMapperTests : AutoMapperSpecBase
         Mapper.Map<DateTimeOffset>(dateTimeOffset.ToString("O")).ShouldBe(dateTimeOffset);
     }
 }
+

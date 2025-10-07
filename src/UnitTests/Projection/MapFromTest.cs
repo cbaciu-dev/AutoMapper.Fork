@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection.MapFromTest;
+namespace BKS.CustomMapper.UnitTests.Projection.MapFromTest;
 
 public class CustomMapFromExpressionTest
 {

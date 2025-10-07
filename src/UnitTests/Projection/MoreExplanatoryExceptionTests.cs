@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 
 public class MoreExplanatoryExceptionTests
 {
@@ -26,3 +26,4 @@ public class MoreExplanatoryExceptionTests
         public EntityDestination(int notSupported = 0) { }
     }
 }
+

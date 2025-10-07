@@ -1,6 +1,6 @@
-﻿using System.Collections.Specialized;
+using System.Collections.Specialized;
 
-namespace AutoMapper.UnitTests.Mappers;
+namespace BKS.CustomMapper.UnitTests.Mappers;
 
 public class NameValueCollectionMapperTests
 {
@@ -46,3 +46,4 @@ public class NameValueCollectionMapperTests
     }
     
 }
+

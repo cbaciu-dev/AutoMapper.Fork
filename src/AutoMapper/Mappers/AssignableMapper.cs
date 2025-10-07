@@ -1,4 +1,4 @@
-namespace AutoMapper.Internal.Mappers;
+namespace BKS.CustomMapper.Internal.Mappers;
 
 public sealed class AssignableMapper : IObjectMapper
 {

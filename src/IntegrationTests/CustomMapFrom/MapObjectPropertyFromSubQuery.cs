@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.CustomMapFrom;
+namespace BKS.CustomMapper.IntegrationTests.CustomMapFrom;
 public class MultipleLevelsSubquery(DatabaseFixture databaseFixture) : IntegrationTest<MultipleLevelsSubquery.DatabaseInitializer>(databaseFixture)
 {
     [Fact]

@@ -1,6 +1,6 @@
-﻿using AutoMapper.Execution;
+using BKS.CustomMapper.Execution;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class IncludeMembers : AutoMapperSpecBase
 {
@@ -1808,3 +1808,4 @@ public class IncludeMembersCascadedNullCheck : AutoMapperSpecBase
     [Fact]
     public void Should_flatten() => Mapper.Map<Dto>(new Parent { A = "a" }).A.ShouldBe("a");
 }
+

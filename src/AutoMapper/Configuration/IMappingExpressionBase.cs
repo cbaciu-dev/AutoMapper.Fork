@@ -1,6 +1,6 @@
-using AutoMapper.Features;
+using BKS.CustomMapper.Features;
 
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 /// <summary>
 /// Common mapping configuration options between generic and non-generic mapping configuration

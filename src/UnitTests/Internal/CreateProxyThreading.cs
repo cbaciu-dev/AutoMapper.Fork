@@ -1,6 +1,6 @@
-﻿using AutoMapper.Execution;
+using BKS.CustomMapper.Execution;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class CreateProxyThreading
 {
@@ -30,3 +30,5 @@ public class CreateProxyThreading
     }
 
 }
+
+

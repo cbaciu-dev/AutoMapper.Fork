@@ -1,9 +1,9 @@
-﻿using Microsoft.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 using Testcontainers.MsSql;
 
-namespace AutoMapper.IntegrationTests;
+namespace BKS.CustomMapper.IntegrationTests;
 
 [CollectionDefinition(nameof(DatabaseFixture))]
 public class DatabaseCollection : ICollectionFixture<DatabaseFixture> { }

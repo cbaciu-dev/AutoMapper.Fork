@@ -1,6 +1,6 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
-namespace AutoMapper.IntegrationTests.ExplicitExpansion;
+namespace BKS.CustomMapper.IntegrationTests.ExplicitExpansion;
 
 public static class Ext
 {

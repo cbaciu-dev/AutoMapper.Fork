@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.MaxDepth;
+namespace BKS.CustomMapper.IntegrationTests.MaxDepth;
 
 public class NestedDtos(DatabaseFixture databaseFixture) : IntegrationTest<NestedDtos.DatabaseInitializer>(databaseFixture)
 {

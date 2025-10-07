@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 public class NonGenericProjectEnumTest
 {
     private MapperConfiguration _config;

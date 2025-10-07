@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.ExplicitExpansion;
+namespace BKS.CustomMapper.IntegrationTests.ExplicitExpansion;
 
 public class ConstructorExplicitExpansionOverride(DatabaseFixture databaseFixture) : IntegrationTest<ConstructorExplicitExpansionOverride.DatabaseInitializer>(databaseFixture) {
     public class Entity {

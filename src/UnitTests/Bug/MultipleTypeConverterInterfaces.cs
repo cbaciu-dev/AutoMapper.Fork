@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class When_specifying_a_type_converter_implementing_multiple_type_converter_interfaces : AutoMapperSpecBase
     {

@@ -5,8 +5,6 @@
     <NoWarn>$(NoWarn);649;618</NoWarn>
     <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
-    <AssemblyName>BKS.CustomMapper.UnitTests</AssemblyName>
-    <PackageId>BKS.CustomMapper.UnitTests</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(IsWindows)' == 'true' ">

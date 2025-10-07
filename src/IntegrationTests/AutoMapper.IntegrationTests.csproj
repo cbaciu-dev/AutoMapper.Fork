@@ -5,8 +5,6 @@
     <NoWarn>$(NoWarn);618</NoWarn>
     <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
-    <AssemblyName>BKS.CustomMapper.IntegrationTests</AssemblyName>
-    <PackageId>BKS.CustomMapper.IntegrationTests</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(IsWindows)' == 'true' ">
@@ -32,6 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <Using Include="System.ComponentModel.DataAnnotations.Schema" />
-    <Using Include="AutoMapper.UnitTests" />
+  <Using Include="BKS.CustomMapper.UnitTests" />
   </ItemGroup>
 </Project>

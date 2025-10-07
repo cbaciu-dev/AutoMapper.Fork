@@ -1,6 +1,6 @@
-﻿using AutoMapper.Execution;
+using BKS.CustomMapper.Execution;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class GenerateSimilarType
 {
@@ -61,3 +61,5 @@ public class GenerateSimilarType
     public IEnumerable<(string Name, Type PropertyType)> GetProperties(Type type) =>
         type.GetProperties().OrderBy(p => p.Name).Select(p => (p.Name, p.PropertyType));
 }
+
+

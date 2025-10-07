@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug
+namespace BKS.CustomMapper.UnitTests.Bug
 {
     namespace EnumConditionsBug
     {
@@ -44,3 +44,4 @@
         }
     }
 }
+

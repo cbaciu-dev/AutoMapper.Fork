@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Configuration.Annotations;
+﻿namespace BKS.CustomMapper.Configuration.Annotations;
 
 /// <summary>
 /// Specify a value converter type to convert from the matching source member to the destination member

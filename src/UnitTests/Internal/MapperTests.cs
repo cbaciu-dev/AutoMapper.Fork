@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Tests;
+namespace BKS.CustomMapper.UnitTests.Tests;
 
 public class MapperTests : NonValidatingSpecBase
 {

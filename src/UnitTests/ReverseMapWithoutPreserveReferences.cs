@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class ReverseMapWithoutPreserveReferences : AutoMapperSpecBase
 {
@@ -74,3 +74,4 @@ public class ReverseMapWithoutPreserveReferences : AutoMapperSpecBase
         _destination.Group.Users.SequenceEqual(new[] { _destination }).ShouldBeTrue();
     }
 }
+

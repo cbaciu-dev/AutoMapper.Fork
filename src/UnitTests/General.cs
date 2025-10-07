@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests
+namespace BKS.CustomMapper.UnitTests
 {
     namespace General
     {
@@ -443,3 +443,4 @@ namespace AutoMapper.UnitTests
         }
     }
 }
+

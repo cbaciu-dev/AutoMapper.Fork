@@ -1,11 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Shouldly;
 using Xunit;
 
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests.Integrations
+namespace BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests.Integrations
 {
 	public class ServiceLifetimeTests
 	{

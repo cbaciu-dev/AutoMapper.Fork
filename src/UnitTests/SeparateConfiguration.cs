@@ -1,6 +1,6 @@
-﻿using Microsoft.Extensions.Logging.Abstractions;
+using Microsoft.Extensions.Logging.Abstractions;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public class SeparateConfiguration : NonValidatingSpecBase
 {
     public class Source

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests;
+namespace BKS.CustomMapper.IntegrationTests;
 public class ConstructorDefaultValue(DatabaseFixture databaseFixture) : IntegrationTest<ConstructorDefaultValue.DatabaseInitializer>(databaseFixture)
 {
     public class Customer

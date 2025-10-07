@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.BeforeAfterMapping;
+namespace BKS.CustomMapper.UnitTests.BeforeAfterMapping;
 public class When_configuring_before_and_after_methods
 {
     public class Source
@@ -315,4 +315,5 @@ public class MappingSpecificAfterMapping : AutoMapperSpecBase
         _dest.Value.ShouldBe(25);
     }
 }
+
 

@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class When_implementing_multiple_IValueResolver_interfaces : AutoMapperSpecBase
 {

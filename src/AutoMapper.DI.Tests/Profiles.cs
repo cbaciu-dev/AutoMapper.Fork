@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
+namespace BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
     public class Source
     {

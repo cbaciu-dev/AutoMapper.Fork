@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.ExplicitExpansion;
+namespace BKS.CustomMapper.IntegrationTests.ExplicitExpansion;
 
 public class NestedExplicitExpand(DatabaseFixture databaseFixture) : IntegrationTest<NestedExplicitExpand.DatabaseInitializer>(databaseFixture)
 {

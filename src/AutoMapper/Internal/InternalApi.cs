@@ -1,10 +1,10 @@
-﻿using AutoMapper.Configuration.Conventions;
-using AutoMapper.Features;
-using AutoMapper.Internal.Mappers;
-using AutoMapper.QueryableExtensions.Impl;
+using BKS.CustomMapper.Configuration.Conventions;
+using BKS.CustomMapper.Features;
+using BKS.CustomMapper.Internal.Mappers;
+using BKS.CustomMapper.QueryableExtensions.Impl;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AutoMapper.Internal;
+namespace BKS.CustomMapper.Internal;
 
 using Validator = Action<ValidationContext>;
 [EditorBrowsable(EditorBrowsableState.Never)]

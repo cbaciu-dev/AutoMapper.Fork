@@ -1,7 +1,7 @@
-using AutoMapper.Configuration;
-using AutoMapper.Internal.Mappers;
+using BKS.CustomMapper.Configuration;
+using BKS.CustomMapper.Internal.Mappers;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class CustomValidations
 {
@@ -217,3 +217,4 @@ public class CustomValidations
         }
     }
 }
+

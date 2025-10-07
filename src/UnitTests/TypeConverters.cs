@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.CustomMapping;
+namespace BKS.CustomMapper.UnitTests.CustomMapping;
 public class StringToEnumConverter : AutoMapperSpecBase
 {
     class Source

@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
 #if NETSTANDARD2_0
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 internal static class Polyfill
 {

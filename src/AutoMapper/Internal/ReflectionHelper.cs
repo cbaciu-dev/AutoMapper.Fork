@@ -1,4 +1,4 @@
-namespace AutoMapper.Internal;
+namespace BKS.CustomMapper.Internal;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public static class ReflectionHelper
 {

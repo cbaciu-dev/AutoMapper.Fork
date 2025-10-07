@@ -1,4 +1,4 @@
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 [DebuggerDisplay("{DestinationMember.Name}")]
 [EditorBrowsable(EditorBrowsableState.Never)]

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class ObjectTypeMapFailure : NonValidatingSpecBase
 {
@@ -31,3 +31,4 @@ public class ObjectTypeMapFailure : NonValidatingSpecBase
         public int Radius { get; set; }
     }
 }
+

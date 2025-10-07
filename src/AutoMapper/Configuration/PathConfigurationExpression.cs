@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Configuration;
+﻿namespace BKS.CustomMapper.Configuration;
 /// <summary>
 /// Member configuration options
 /// </summary>

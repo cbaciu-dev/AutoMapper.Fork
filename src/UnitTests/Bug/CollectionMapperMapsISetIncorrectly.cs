@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class CollectionMapperMapsIEnumerableToISetIncorrectly
 {
@@ -38,3 +38,4 @@ public class CollectionMapperMapsIEnumerableToISetIncorrectly
         var target = config.CreateMapper().Map<SourceWithIEnumerable, TargetWithISet>(source);
     }
 }
+

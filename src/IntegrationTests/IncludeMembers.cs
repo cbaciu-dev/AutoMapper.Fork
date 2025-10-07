@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests;
+namespace BKS.CustomMapper.IntegrationTests;
 
 public class IncludeMembers(DatabaseFixture databaseFixture) : IntegrationTest<IncludeMembers.DatabaseInitializer>(databaseFixture)
 {

@@ -1,6 +1,6 @@
-﻿using AutoMapper.Features;
+using BKS.CustomMapper.Features;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class ConfigurationFeatureTest
 {
@@ -136,3 +136,4 @@ public class ConfigurationFeatureTest
         }
     }
 }
+

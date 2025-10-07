@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 public class NullArrayBug : AutoMapperSpecBase
 {
     private static Source _source;

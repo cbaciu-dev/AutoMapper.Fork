@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class SomeSource
 {
@@ -38,3 +38,4 @@ public class IgnoreAllPropertiesWithAnInaccessibleSetterTests
         Assert.Equal(0, destination.IgnoreMe);
     }
 }
+

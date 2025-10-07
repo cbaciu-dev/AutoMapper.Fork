@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.ExplicitExpansion;
+namespace BKS.CustomMapper.IntegrationTests.ExplicitExpansion;
 
 public class ExpandMembersPath(DatabaseFixture databaseFixture) : IntegrationTest<ExpandMembersPath.DatabaseInitializer>(databaseFixture)
 {

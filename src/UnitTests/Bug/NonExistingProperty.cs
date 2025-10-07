@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class NonExistingProperty : NonValidatingSpecBase
 {
@@ -16,3 +16,4 @@ public class NonExistingProperty : NonValidatingSpecBase
         new Action(() => new MapperConfiguration(cfg => cfg.CreateMap<Source, Destination>().ForMember("X", s => { }))).ShouldThrow<ArgumentOutOfRangeException>();
     }
 }
+

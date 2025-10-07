@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class CannotProjectStringToNullableEnum
 {
@@ -36,3 +36,4 @@ public class CannotProjectStringToNullableEnum
         destination.Dummy.ShouldBe(DummyTypes.Foo);
     }
 }
+

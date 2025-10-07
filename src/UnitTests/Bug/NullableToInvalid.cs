@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class NullableToInvalid : NonValidatingSpecBase
 {
@@ -27,3 +27,4 @@ public class NullableToInvalid : NonValidatingSpecBase
         new Action(AssertConfigurationIsValid).ShouldThrow<AutoMapperConfigurationException>();
     }
 }
+

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 // Bug #511
 // https://github.com/LuckyPennySoftware/AutoMapper/issues/511
@@ -19,3 +19,4 @@ public class ReadOnlyCollectionMappingBug
         target[0].X.ShouldBe(source[0].X);
     }
 }
+

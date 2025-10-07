@@ -1,11 +1,11 @@
-﻿using System.Linq;
+using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Shouldly;
 using Xunit;
 
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
+namespace BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
     public class MultipleRegistrationTests
     {

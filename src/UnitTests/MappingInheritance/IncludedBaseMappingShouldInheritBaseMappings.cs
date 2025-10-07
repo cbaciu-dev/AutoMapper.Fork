@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 public class IncludedMappingShouldInheritBaseMappings : NonValidatingSpecBase
 {
 
@@ -440,3 +440,4 @@ public class OverrideDifferentMapFrom : AutoMapperSpecBase
     [Fact]
     public void Should_use_derived_mapfrom() => Map<DestinationDerived>(new Source()).Value.ShouldBe(2);
 }
+

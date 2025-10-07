@@ -1,4 +1,4 @@
-namespace AutoMapper.Execution;
+namespace BKS.CustomMapper.Execution;
 
 public ref struct TypeMapPlanBuilder(IGlobalConfiguration configuration, TypeMap typeMap)
 {

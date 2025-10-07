@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests
+namespace BKS.CustomMapper.IntegrationTests
 {
     namespace ValueTransformerTests
     {

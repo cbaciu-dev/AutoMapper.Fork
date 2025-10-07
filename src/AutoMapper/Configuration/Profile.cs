@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
-using AutoMapper.Configuration.Conventions;
-namespace AutoMapper;
+using BKS.CustomMapper.Configuration.Conventions;
+namespace BKS.CustomMapper;
 public interface IProfileConfiguration
 {
     bool? FieldMappingEnabled { get; }

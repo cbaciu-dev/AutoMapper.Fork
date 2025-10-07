@@ -1,4 +1,4 @@
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 using Features;
 using System.Runtime.CompilerServices;
 

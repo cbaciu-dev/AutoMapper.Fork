@@ -1,6 +1,6 @@
 using System.Collections.Specialized;
 using System.Collections.Immutable;
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public class UnsupportedCollection : AutoMapperSpecBase
 {
     class Source
@@ -1204,3 +1204,4 @@ public class When_mapping_enumerable_to_array : AutoMapperSpecBase
         dest.Items[2].I.ShouldBe(3);
     }
 }
+

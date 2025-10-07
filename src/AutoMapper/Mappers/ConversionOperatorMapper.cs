@@ -1,4 +1,4 @@
-namespace AutoMapper.Internal.Mappers;
+namespace BKS.CustomMapper.Internal.Mappers;
 public sealed class ConversionOperatorMapper : IObjectMapper
 {
     private readonly string _operatorName;

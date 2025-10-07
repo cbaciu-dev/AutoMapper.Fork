@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Internal.Mappers;
+﻿namespace BKS.CustomMapper.Internal.Mappers;
 public sealed class ConstructorMapper : IObjectMapper
 {
     public bool IsMatch(TypePair context) => GetConstructor(context.SourceType, context.DestinationType) != null;

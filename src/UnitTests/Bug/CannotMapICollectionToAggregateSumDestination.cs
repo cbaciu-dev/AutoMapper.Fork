@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class CannotMapICollectionToAggregateSumDestination
 {
@@ -44,3 +44,4 @@ public class CannotMapICollectionToAggregateSumDestination
         destination.DummyCollectionSum.ShouldBe(10);
     }
 }
+

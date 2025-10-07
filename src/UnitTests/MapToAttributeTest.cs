@@ -1,6 +1,6 @@
-﻿using AutoMapper.Configuration.Conventions;
+using BKS.CustomMapper.Configuration.Conventions;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public abstract class SourceToDestinationMapperAttribute : Attribute
 {
@@ -86,3 +86,4 @@ public class MapToAttributeTest : AutoMapperSpecBase
         result.MyValueProperty.ShouldBe("MyKey");
     }
 }
+

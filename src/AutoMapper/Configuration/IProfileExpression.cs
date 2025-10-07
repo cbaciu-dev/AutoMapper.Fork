@@ -1,4 +1,4 @@
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 /// <summary>
 /// Configuration for profile-specific maps

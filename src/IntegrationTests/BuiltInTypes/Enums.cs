@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.BuiltInTypes;
+namespace BKS.CustomMapper.IntegrationTests.BuiltInTypes;
 
 public class EnumToUnderlyingType(DatabaseFixture databaseFixture) : IntegrationTest<EnumToUnderlyingType.DatabaseInitializer>(databaseFixture)
 {

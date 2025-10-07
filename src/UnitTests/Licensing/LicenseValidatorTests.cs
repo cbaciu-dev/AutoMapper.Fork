@@ -1,10 +1,10 @@
 using System.Security.Claims;
-using AutoMapper.Licensing;
+using BKS.CustomMapper.Licensing;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Testing;
 using License = AutoMapper.Licensing.License;
 
-namespace AutoMapper.UnitTests.Licensing;
+namespace BKS.CustomMapper.UnitTests.Licensing;
 
 public class LicenseValidatorTests
 {
@@ -111,3 +111,4 @@ public class LicenseValidatorTests
             .ShouldContain(log => log.Level == LogLevel.Error);
     }
 }
+

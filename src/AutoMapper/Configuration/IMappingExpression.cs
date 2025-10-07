@@ -1,4 +1,4 @@
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 /// <summary>
 /// Mapping configuration options for non-generic maps
 /// </summary>

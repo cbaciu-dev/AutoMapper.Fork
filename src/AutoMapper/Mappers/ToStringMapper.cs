@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Internal.Mappers;
+﻿namespace BKS.CustomMapper.Internal.Mappers;
 public sealed class ToStringMapper : IObjectMapper
 {
     public bool IsMatch(TypePair context) => context.DestinationType == typeof(string);

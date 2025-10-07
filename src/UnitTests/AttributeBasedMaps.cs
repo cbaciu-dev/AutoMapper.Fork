@@ -1,6 +1,6 @@
-﻿using AutoMapper.Configuration.Annotations;
+using BKS.CustomMapper.Configuration.Annotations;
 
-namespace AutoMapper.UnitTests
+namespace BKS.CustomMapper.UnitTests
 {
     namespace AttributeBasedMaps
     {
@@ -1005,3 +1005,4 @@ namespace AutoMapper.UnitTests
         }
     }
 }
+

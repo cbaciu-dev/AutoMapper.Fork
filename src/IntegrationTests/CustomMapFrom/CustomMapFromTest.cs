@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.CustomMapFrom;
+namespace BKS.CustomMapper.IntegrationTests.CustomMapFrom;
 
 public class CustomMapFromTest(DatabaseFixture databaseFixture) : IntegrationTest<CustomMapFromTest.DatabaseInitializer>(databaseFixture)
 {

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Internal;
+﻿namespace BKS.CustomMapper.Internal;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public readonly record struct MemberPath(MemberInfo[] Members)
 {

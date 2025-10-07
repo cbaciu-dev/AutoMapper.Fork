@@ -1,6 +1,6 @@
-using AutoMapper.Configuration.Conventions;
+using BKS.CustomMapper.Configuration.Conventions;
 using System.Collections.Concurrent;
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 [DebuggerDisplay("{Name}")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public sealed class ProfileMap

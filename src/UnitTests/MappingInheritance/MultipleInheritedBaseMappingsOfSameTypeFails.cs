@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class MultipleMappingsOfSameTypeFails
 {
@@ -38,3 +38,4 @@ public class MultipleMappingsOfSameTypeFails
         config.AssertConfigurationIsValid();
     }
 }
+

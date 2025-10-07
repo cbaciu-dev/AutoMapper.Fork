@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests;
+namespace BKS.CustomMapper.IntegrationTests;
 
 public class ProjectionOrderTest(DatabaseFixture databaseFixture) : IntegrationTest<ProjectionOrderTest.DatabaseInitializer>(databaseFixture)
 {

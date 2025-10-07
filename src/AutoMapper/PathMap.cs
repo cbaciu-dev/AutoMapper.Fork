@@ -1,4 +1,4 @@
-﻿namespace AutoMapper;
+﻿namespace BKS.CustomMapper;
 [DebuggerDisplay("{DestinationExpression}")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public sealed class PathMap(LambdaExpression destinationExpression, MemberPath memberPath, TypeMap typeMap) 

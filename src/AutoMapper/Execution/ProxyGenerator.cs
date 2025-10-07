@@ -1,6 +1,6 @@
 using System.Reflection.Emit;
 
-namespace AutoMapper.Execution;
+namespace BKS.CustomMapper.Execution;
 
 public static class ProxyGenerator
 {

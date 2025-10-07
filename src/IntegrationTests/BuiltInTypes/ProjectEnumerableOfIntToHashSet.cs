@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.BuiltInTypes;
+namespace BKS.CustomMapper.IntegrationTests.BuiltInTypes;
 
 public class ProjectEnumerableOfIntToHashSet(DatabaseFixture databaseFixture) : IntegrationTest<ProjectEnumerableOfIntToHashSet.DatabaseInitializer>(databaseFixture)
 {

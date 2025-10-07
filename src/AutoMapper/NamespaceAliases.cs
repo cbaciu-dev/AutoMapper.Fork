@@ -1,0 +1,11 @@
+global using AutoMapper = BKS.CustomMapper;
+global using BKS.CustomMapper.Features;
+global using BKS.CustomMapper.Internal;
+global using BKS.CustomMapper.Internal.Mappers;
+global using BKS.CustomMapper.Configuration;
+global using BKS.CustomMapper.Configuration.Annotations;
+global using BKS.CustomMapper.Configuration.Conventions;
+global using BKS.CustomMapper.Execution;
+global using BKS.CustomMapper.Licensing;
+global using BKS.CustomMapper.QueryableExtensions;
+global using BKS.CustomMapper.QueryableExtensions.Impl;

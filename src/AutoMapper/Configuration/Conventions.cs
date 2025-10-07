@@ -1,4 +1,4 @@
-namespace AutoMapper.Configuration.Conventions;
+namespace BKS.CustomMapper.Configuration.Conventions;
 public interface ISourceToDestinationNameMapper
 {
     MemberInfo GetSourceMember(TypeDetails sourceTypeDetails, Type destType, Type destMemberType, string nameToSearch);

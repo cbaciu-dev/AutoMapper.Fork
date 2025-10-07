@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public class IncludeBaseIndirectBase : AutoMapperSpecBase
 {
     public class FooBaseBase
@@ -388,3 +388,4 @@ public class IncludedBaseMappingShouldInheritBaseMappings : NonValidatingSpecBas
         dest.BaseString.ShouldBe("12345");
     }
 }
+

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class GenericTypeConverterWithTwoArguments : AutoMapperSpecBase
 {
@@ -158,3 +158,4 @@ public class GenericTypeConverter : AutoMapperSpecBase
         Mapper.Map<Destination<long>>(new Source<long>()).ShouldBeSameAs(Converter<long>.SomeDestination);
     }
 }
+

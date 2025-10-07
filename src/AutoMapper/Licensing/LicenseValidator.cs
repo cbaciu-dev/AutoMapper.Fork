@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace AutoMapper.Licensing;
+namespace BKS.CustomMapper.Licensing;
 
 internal class LicenseValidator
 {

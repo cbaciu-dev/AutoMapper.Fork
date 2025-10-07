@@ -1,6 +1,6 @@
-﻿using System.Dynamic;
+using System.Dynamic;
 
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class MapOverloadsWithDynamic : AutoMapperSpecBase
 {

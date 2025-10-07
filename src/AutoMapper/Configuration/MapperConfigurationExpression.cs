@@ -1,12 +1,12 @@
-using AutoMapper.Features;
-using AutoMapper.Internal.Mappers;
-using AutoMapper.QueryableExtensions.Impl;
+using BKS.CustomMapper.Features;
+using BKS.CustomMapper.Internal.Mappers;
+using BKS.CustomMapper.QueryableExtensions.Impl;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 using Validator = Action<ValidationContext>;
 public interface IMapperConfigurationExpression : IProfileExpression

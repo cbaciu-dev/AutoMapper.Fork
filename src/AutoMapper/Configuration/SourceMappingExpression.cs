@@ -1,4 +1,4 @@
-namespace AutoMapper.Configuration;
+namespace BKS.CustomMapper.Configuration;
 public interface ISourceMemberConfiguration
 {
     void Configure(TypeMap typeMap);

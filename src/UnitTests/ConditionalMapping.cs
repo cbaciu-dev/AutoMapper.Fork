@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.ConditionalMapping;
+namespace BKS.CustomMapper.UnitTests.ConditionalMapping;
 
 public class When_adding_a_condition_for_all_members : AutoMapperSpecBase
 {

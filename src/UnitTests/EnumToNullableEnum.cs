@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class EnumToNullableEnum : AutoMapperSpecBase
 {
@@ -31,3 +31,4 @@ public class EnumToNullableEnum : AutoMapperSpecBase
         _destination.EnumValue.ShouldBe(SomeEnum.Bar);
     }
 }
+

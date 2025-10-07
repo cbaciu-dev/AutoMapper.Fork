@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using BKS.CustomMapper;
 using Microsoft.Extensions.DependencyInjection;
 
 IServiceCollection services = new ServiceCollection();
@@ -90,4 +90,5 @@ public class FooService : ISomeService
 
     public int Modify(int value) => value + _value;
 }
+
 

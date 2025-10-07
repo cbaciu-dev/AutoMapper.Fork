@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
-using AutoMapper.UnitTests;
-namespace AutoMapper.Tests;
+using BKS.CustomMapper.UnitTests;
+namespace BKS.CustomMapper.Tests;
 public class CreateProjectionEnum : AutoMapperSpecBase
 {
     public class Source
@@ -715,3 +715,5 @@ public class When_the_source_has_an_enummemberattribute_value : AutoMapperSpecBa
         dest.ShouldBe(null);
     }
 }
+
+

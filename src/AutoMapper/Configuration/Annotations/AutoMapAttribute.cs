@@ -1,4 +1,4 @@
-﻿namespace AutoMapper;
+﻿namespace BKS.CustomMapper;
 
 /// <summary>
 /// Auto map to this destination type from the specified source type.

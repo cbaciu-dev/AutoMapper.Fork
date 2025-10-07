@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class ReverseMapWithStaticField : AutoMapperSpecBase
 {

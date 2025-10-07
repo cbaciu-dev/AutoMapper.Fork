@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Constructors;
+namespace BKS.CustomMapper.UnitTests.Constructors;
 public class RecordConstructorValidation : AutoMapperSpecBase
 {
     record Destination(int Value) { }
@@ -1823,4 +1823,5 @@ public class When_configuring_ctor_param_members_without_source_property_2 : Aut
         Assert.Equal("100", dest.Details.Value.ToString());
     }
 }
+
 

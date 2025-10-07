@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests;
+namespace BKS.CustomMapper.IntegrationTests;
 public class ProjectionAdvanced(DatabaseFixture databaseFixture) : IntegrationTest<ProjectionAdvanced.Initializer>(databaseFixture)
 {
     protected override MapperConfiguration CreateConfiguration() => new(c => c.CreateProjection<Entity, Dto>().Advanced().ForAllMembers(o=>o.Ignore()));

@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class NullableBytesAndEnums : AutoMapperSpecBase
 {
@@ -104,3 +104,4 @@ public class NullableShortWithCustomMapFrom : AutoMapperSpecBase
         destination.Value.ShouldBeNull();
     }
 }
+

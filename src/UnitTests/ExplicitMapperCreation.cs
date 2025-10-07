@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public class ExplicitMapperCreation : AutoMapperSpecBase
 {
     protected override MapperConfiguration CreateConfiguration() =>new(cfg => cfg.CreateMap<Source, Dest>());

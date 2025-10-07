@@ -1,6 +1,6 @@
-using AutoMapper.QueryableExtensions.Impl;
+using BKS.CustomMapper.QueryableExtensions.Impl;
 
-namespace AutoMapper.UnitTests
+namespace BKS.CustomMapper.UnitTests
 {
     public static class ExpressionBuilderExtensions
     {
@@ -279,3 +279,4 @@ namespace AutoMapper.UnitTests
         }
     }
 }
+

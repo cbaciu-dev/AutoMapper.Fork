@@ -1,12 +1,12 @@
-﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging;
 
 namespace Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using AutoMapper;
-using AutoMapper.Internal;
+using BKS.CustomMapper;
+using BKS.CustomMapper.Internal;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 

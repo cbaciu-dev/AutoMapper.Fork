@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public abstract class AutoMapperSpecBase : NonValidatingSpecBase
 {
     protected override void OnConfig(MapperConfiguration mapperConfiguration) => mapperConfiguration.AssertConfigurationIsValid();

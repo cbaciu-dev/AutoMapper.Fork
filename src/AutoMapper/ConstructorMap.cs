@@ -1,4 +1,4 @@
-﻿namespace AutoMapper;
+﻿namespace BKS.CustomMapper;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public sealed class ConstructorMap
 {

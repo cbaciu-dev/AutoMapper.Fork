@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests
+namespace BKS.CustomMapper.UnitTests
 {
     namespace Profiles
     {
@@ -163,3 +163,4 @@ namespace AutoMapper.UnitTests
 
     }
 }
+

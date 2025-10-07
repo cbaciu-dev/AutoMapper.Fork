@@ -1,11 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
+namespace BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
     using System;
-    using AutoMapper.Internal;
+    using BKS.CustomMapper.Internal;
     using Shouldly;
     using Xunit;
 
@@ -40,3 +40,4 @@ namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
         }
     }
 }
+

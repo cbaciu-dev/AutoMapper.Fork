@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Features;
+﻿namespace BKS.CustomMapper.Features;
 public interface IGlobalFeature
 {
     void Configure(IGlobalConfiguration configuration);

@@ -1,6 +1,6 @@
-using AutoMapper.Execution;
+using BKS.CustomMapper.Execution;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class PrimitiveExtensionsTester
 {
@@ -41,3 +41,4 @@ public class PrimitiveExtensionsTester
         e.IsMemberPath(out _).ShouldBeFalse();
     }
 }
+

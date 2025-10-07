@@ -1,6 +1,6 @@
-﻿using AutoMapper.Features;
+using BKS.CustomMapper.Features;
 
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class MappingExpressionFeatureWithoutReverseTest
 {
@@ -302,3 +302,4 @@ public class MappingExpressionFeatureWithoutReverseTest
         public int Value { get; set; }
     }
 }
+

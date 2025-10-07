@@ -1,4 +1,4 @@
-namespace AutoMapper.QueryableExtensions;
+namespace BKS.CustomMapper.QueryableExtensions;
 
 using MemberPaths = IEnumerable<MemberInfo[]>;
 using ParameterBag = IDictionary<string, object>;

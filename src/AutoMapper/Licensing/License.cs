@@ -1,6 +1,6 @@
 using System.Security.Claims;
 
-namespace AutoMapper.Licensing;
+namespace BKS.CustomMapper.Licensing;
 
 internal class License
 {

@@ -1,6 +1,6 @@
-﻿using AutoMapper.Internal.Mappers;
+using BKS.CustomMapper.Internal.Mappers;
 using System.Globalization;
-namespace AutoMapper.UnitTests.Mappers;
+namespace BKS.CustomMapper.UnitTests.Mappers;
 using static TypeDescriptor;
 public class When_specifying_mapping_with_the_BCL_type_converter_class : NonValidatingSpecBase
 {
@@ -201,3 +201,4 @@ public class When_adding_an_object_based_custom_mapper : AutoMapperSpecBase
         _destination.Color.ShouldBe("Test");
     }
 }
+

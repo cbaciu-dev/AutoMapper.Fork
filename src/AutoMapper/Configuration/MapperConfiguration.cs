@@ -1,8 +1,8 @@
-using AutoMapper.Licensing;
+using BKS.CustomMapper.Licensing;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 using Features;
 using Internal.Mappers;
 using QueryableExtensions.Impl;

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class ShouldUseConstructorInternal : NonValidatingSpecBase
 {
@@ -202,3 +202,4 @@ public class ShouldIgnoreImplicitStaticConstructor : NonValidatingSpecBase
     public void Should_ignore_implicit_static_constructor() =>
         Should.Throw<AutoMapperConfigurationException>(AssertConfigurationIsValid);
 }
+

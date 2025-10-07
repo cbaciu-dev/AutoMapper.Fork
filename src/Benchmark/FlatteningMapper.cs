@@ -1,4 +1,4 @@
-using AutoMapper;
+using BKS.CustomMapper;
 using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Benchmark.Flattening;

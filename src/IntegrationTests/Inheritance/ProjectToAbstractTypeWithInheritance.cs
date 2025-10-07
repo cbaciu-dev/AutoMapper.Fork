@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.IntegrationTests.Inheritance;
+namespace BKS.CustomMapper.IntegrationTests.Inheritance;
 
 public class ProjectToAbstractTypeWithInheritance(DatabaseFixture databaseFixture) : IntegrationTest<ProjectToAbstractTypeWithInheritance.DatabaseInitializer>(databaseFixture)
 {

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 public class ProjectEnumerableToArrayTest
 {
     private MapperConfiguration _config;
@@ -47,3 +47,4 @@ public class ProjectEnumerableToArrayTest
         public string Name { get; set; }
     }
 }
+

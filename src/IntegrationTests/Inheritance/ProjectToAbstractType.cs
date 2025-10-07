@@ -1,6 +1,6 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 
-namespace AutoMapper.IntegrationTests.Inheritance;
+namespace BKS.CustomMapper.IntegrationTests.Inheritance;
 
 public class ProjectToAbstractType(DatabaseFixture databaseFixture) : IntegrationTest<ProjectToAbstractType.DatabaseInitializer>(databaseFixture)
 {

@@ -1,4 +1,4 @@
-namespace AutoMapper.QueryableExtensions.Impl;
+namespace BKS.CustomMapper.QueryableExtensions.Impl;
 using static ReflectionHelper;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public sealed class EnumerableProjectionMapper : IProjectionMapper

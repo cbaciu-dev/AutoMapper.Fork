@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Configuration.Annotations;
+﻿namespace BKS.CustomMapper.Configuration.Annotations;
 
 /// <summary>
 /// Map destination member using a custom value resolver.

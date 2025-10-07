@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class When_overriding_global_ignore : AutoMapperSpecBase
 {

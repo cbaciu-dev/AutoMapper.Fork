@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
+namespace BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
     using System;
     using global::Microsoft.Extensions.DependencyInjection;
@@ -46,3 +46,4 @@ namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
         }
     }
 }
+

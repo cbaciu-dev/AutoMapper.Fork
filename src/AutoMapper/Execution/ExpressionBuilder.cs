@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Runtime.CompilerServices;
 using System.Collections.ObjectModel;
-namespace AutoMapper.Execution;
-using static Internal.ReflectionHelper;
+namespace BKS.CustomMapper.Execution;
+using static BKS.CustomMapper.Internal.ReflectionHelper;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public static class ExpressionBuilder
 {

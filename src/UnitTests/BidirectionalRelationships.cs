@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.BidirectionalRelationships;
+namespace BKS.CustomMapper.UnitTests.BidirectionalRelationships;
 
 public class RecursiveMappingWithStruct : AutoMapperSpecBase
 {

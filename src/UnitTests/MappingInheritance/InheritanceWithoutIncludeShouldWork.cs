@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.MappingInheritance;
+namespace BKS.CustomMapper.UnitTests.MappingInheritance;
 public class InheritanceWithoutIncludeShouldWork : AutoMapperSpecBase
 {
     public class FooBase { }

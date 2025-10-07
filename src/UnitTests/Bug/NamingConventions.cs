@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug.NamingConventions;
+namespace BKS.CustomMapper.UnitTests.Bug.NamingConventions;
 
 public class RemoveNameSplitMapper : NonValidatingSpecBase
 {

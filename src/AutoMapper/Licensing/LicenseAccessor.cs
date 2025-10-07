@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using Convert = System.Convert;
 
-namespace AutoMapper.Licensing;
+namespace BKS.CustomMapper.Licensing;
 
 internal class LicenseAccessor
 {

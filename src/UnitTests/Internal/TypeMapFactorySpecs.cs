@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace AutoMapper.UnitTests.Tests;
+namespace BKS.CustomMapper.UnitTests.Tests;
 public class StubNamingConvention : INamingConvention
 {
     public Regex SplittingExpression { get; set; }

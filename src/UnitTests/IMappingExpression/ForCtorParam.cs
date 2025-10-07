@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 public class ForCtorParamValidation : AutoMapperSpecBase
 {
     record Source(float Value = 0);

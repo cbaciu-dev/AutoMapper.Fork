@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 public class ForAllMapsTypeConverter : AutoMapperSpecBase
 {
     protected override MapperConfiguration CreateConfiguration() => new(c =>

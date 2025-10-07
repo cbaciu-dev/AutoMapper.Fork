@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 public class NullSubstitutes : AutoMapperSpecBase
 {
     private List<Dest> _dests;

@@ -6,10 +6,11 @@
     <TargetFrameworks>netstandard2.0;net8.0;net9.0</TargetFrameworks>
     <LangVersion>13.0</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>BKS.CustomMapper</AssemblyName>
+  <AssemblyName>BKS.CustomMapper</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
-    <PackageId>BKS.CustomMapper</PackageId>
+  <PackageId>BKS.CustomMapper</PackageId>
+  <RootNamespace>BKS.CustomMapper</RootNamespace>
     <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://automapper.io</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -52,18 +53,23 @@
     <PackageReference Include="PolySharp" Version="1.15.0" Condition="'$(TargetFramework)' == 'netstandard2.0'" PrivateAssets="All" />
     
     <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All"/>
+    <!-- <PackageReference Include="Microsoft.DotNet.ApiCompat" Version="7.0.0-beta.22074.1" PrivateAssets="All" />   -->
   </ItemGroup>
 
+  <!-- Removing for now because of bash issues -->
+  <!-- <Target Name="PreBuild" AfterTargets="GetAssemblyVersion">
+    <Exec Condition=" '$(OS)' == 'Windows_NT' " Command="powershell -ExecutionPolicy Unrestricted -File &quot;$(ProjectDir)ApiCompat\PreBuild.ps1&quot; -version $(Version)" />
+    <Exec Condition=" '$(OS)' != 'Windows_NT' " Command="bash &quot;$(ProjectDir)ApiCompat/PreBuild.sh&quot; $(Version)" />
+  </Target> -->
   <ItemGroup>
     <Using Include="System.Linq.Expressions.Expression" Static="true"/>
-    <Using Include="AutoMapper.Execution.ExpressionBuilder" Static="true"/>
-    <Using Include="AutoMapper.Execution"/>
-    <Using Include="AutoMapper.Configuration"/>
+    <Using Include="BKS.CustomMapper.Execution.ExpressionBuilder" Static="true"/>
+    <Using Include="BKS.CustomMapper.Execution"/>
+    <Using Include="BKS.CustomMapper.Configuration"/>
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="BKS.CustomMapper.UnitTests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
-    <InternalsVisibleTo Include="BKS.CustomMapper.IntegrationTests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
-    <InternalsVisibleTo Include="BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
+    <InternalsVisibleTo Include="AutoMapper.UnitTests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
+    <InternalsVisibleTo Include="AutoMapper.IntegrationTests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079dfef85ed6ba841717e154f13182c0a6029a40794a6ecd2886c7dc38825f6a4c05b0622723a01cd080f9879126708eef58f134accdc99627947425960ac2397162067507e3c627992aa6b92656ad3380999b30b5d5645ba46cc3fcc6a1de5de7afebcf896c65fb4f9547a6c0c6433045fceccb1fa15e960d519d0cd694b29a4"/>
   </ItemGroup>
 </Project>

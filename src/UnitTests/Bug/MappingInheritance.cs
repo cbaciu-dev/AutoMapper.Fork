@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 public class MappingInheritance : AutoMapperSpecBase
 {
     private Entity testEntity;
@@ -94,3 +94,4 @@ public class MappingInheritanceBug
         public int NewId { get; set; }
     }
 }
+

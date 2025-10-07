@@ -1,4 +1,4 @@
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 /// <summary>
 /// Defines a naming convention strategy

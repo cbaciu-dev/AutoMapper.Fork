@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class SequenceContainsNoElementsTest : AutoMapperSpecBase
 {
@@ -37,3 +37,4 @@ public class PersonModel
 {
     public string Name { get; set; }
 }
+

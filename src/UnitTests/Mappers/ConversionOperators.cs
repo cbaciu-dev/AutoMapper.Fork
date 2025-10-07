@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 public class Nullable_conversion_operator : NonValidatingSpecBase
 {
@@ -184,3 +184,4 @@ public class When_mapping_to_classes_with_explicit_conversion_operator_on_the_so
         _bar.OtherValue.ShouldBe("Hello");
     }
 }
+

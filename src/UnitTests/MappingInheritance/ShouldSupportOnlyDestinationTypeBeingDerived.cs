@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.MappingInheritance;
+namespace BKS.CustomMapper.UnitTests.MappingInheritance;
 
 public class AsWithMissingMap : NonValidatingSpecBase
 {
@@ -221,3 +221,4 @@ public class AsWithGenerics : AutoMapperSpecBase
         _destination.Name.ShouldBe("Hi");
     }
 }
+

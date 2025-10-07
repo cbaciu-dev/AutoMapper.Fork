@@ -1,4 +1,4 @@
-namespace AutoMapper.Licensing;
+namespace BKS.CustomMapper.Licensing;
 
 internal enum Edition
 {

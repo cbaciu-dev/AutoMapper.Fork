@@ -1,6 +1,6 @@
-﻿using System.Reflection.Emit;
+using System.Reflection.Emit;
 
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class NullConstructorParameterName
 {
@@ -34,3 +34,4 @@ public class NullConstructorParameterName
         return Activator.CreateInstance(type);
     }
 }
+

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public abstract class TypeMapIncludeBaseTypes
 {
@@ -72,3 +72,4 @@ public abstract class TypeMapIncludeBaseTypes
 
     protected abstract IGlobalConfiguration CreateConfigurationProvider();
 }
+

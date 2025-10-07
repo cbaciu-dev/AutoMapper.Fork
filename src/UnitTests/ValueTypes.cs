@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.ValueTypes;
+namespace BKS.CustomMapper.UnitTests.ValueTypes;
 
 public class When_value_types_are_the_source_of_map_cycles : AutoMapperSpecBase
 {

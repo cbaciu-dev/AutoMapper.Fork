@@ -1,4 +1,4 @@
-namespace AutoMapper.Internal;
+namespace BKS.CustomMapper.Internal;
 /// <summary>
 /// Contains cached reflection information for easy retrieval
 /// </summary>

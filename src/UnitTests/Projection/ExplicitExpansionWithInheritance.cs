@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 
 public class ExplicitExpansionWithInheritance : AutoMapperSpecBase
 {
@@ -118,3 +118,4 @@ public class ExplicitExpansionWithInheritance : AutoMapperSpecBase
         Assert.Null(scriptModel.CreatedBy);
     }
 }
+

@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.ConfigurationValidation;
+namespace BKS.CustomMapper.UnitTests.ConfigurationValidation;
 public class When_testing_a_dto_with_mismatched_member_names_and_mismatched_types : AutoMapperSpecBase
 {
     public class Source

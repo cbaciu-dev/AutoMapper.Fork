@@ -1,5 +1,5 @@
-using AutoMapper.Features;
-namespace AutoMapper.Configuration;
+using BKS.CustomMapper.Features;
+namespace BKS.CustomMapper.Configuration;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public abstract class TypeMapConfiguration(MemberList memberList, TypePair types)
 {

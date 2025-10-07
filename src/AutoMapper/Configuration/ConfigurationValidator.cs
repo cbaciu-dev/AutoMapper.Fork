@@ -1,5 +1,5 @@
-using AutoMapper.Internal.Mappers;
-namespace AutoMapper.Configuration;
+using BKS.CustomMapper.Internal.Mappers;
+namespace BKS.CustomMapper.Configuration;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public class ConfigurationValidator(IGlobalConfiguration config)
 {

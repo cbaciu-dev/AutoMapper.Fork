@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 public class ProjectWithFields : AutoMapperSpecBase
 {
     public class Foo
@@ -104,3 +104,4 @@ public class ProjectTest
         public string FirstName { get; set; }
     }
 }
+

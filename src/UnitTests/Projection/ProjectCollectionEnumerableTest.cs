@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Projection;
+namespace BKS.CustomMapper.UnitTests.Projection;
 
 public class ProjectCollectionEnumerableTest
 {
@@ -70,3 +70,4 @@ public class ProjectCollectionEnumerableTest
         }
     }
 }
+

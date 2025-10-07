@@ -1,6 +1,6 @@
 using System.Dynamic;
-using AutoMapper.Internal.Mappers;
-namespace AutoMapper.UnitTests.ArraysAndLists;
+using BKS.CustomMapper.Internal.Mappers;
+namespace BKS.CustomMapper.UnitTests.ArraysAndLists;
 
 public class When_mapping_to_Existing_IEnumerable : AutoMapperSpecBase
 {
@@ -903,3 +903,4 @@ public class When_mapping_a_collection_with_null_members : AutoMapperSpecBase
         _mappedStrings[0].ShouldBeNull();
     }
 }
+

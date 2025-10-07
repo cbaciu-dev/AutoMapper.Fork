@@ -1,4 +1,4 @@
-namespace AutoMapper;
+namespace BKS.CustomMapper;
 
 using IObjectMappingOperationOptions = IMappingOperationOptions<object, object>;
 using Factory = Func<Type, object>;

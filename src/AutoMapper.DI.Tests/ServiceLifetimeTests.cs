@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using Shouldly;
 using Xunit;
 
-namespace AutoMapper.Extensions.Microsoft.DependencyInjection.Tests
+namespace BKS.CustomMapper.Extensions.Microsoft.DependencyInjection.Tests
 {
 	public class ServiceLifetimeTests
 	{

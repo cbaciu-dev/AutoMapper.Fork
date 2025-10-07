@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests;
+namespace BKS.CustomMapper.UnitTests;
 
 interface IGeneric<T> { }
 public class When_an_extension_methods_contraints_fail : NonValidatingSpecBase
@@ -299,3 +299,4 @@ public class When_a_static_method_has_first_parameter_null : AutoMapperSpecBase
         fullName.Name.ShouldBe("Doe");
     }
 }
+

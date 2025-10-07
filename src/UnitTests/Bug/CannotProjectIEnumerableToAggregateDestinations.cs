@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class CannotProjectIEnumerableToAggregateDestinations
 {
@@ -34,3 +34,4 @@ public class CannotProjectIEnumerableToAggregateDestinations
         destination.DummyEnumerableMax.ShouldBe(5);
     }
 }
+

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class ConventionMappedCollectionShouldMapBaseTypes
 {
@@ -83,3 +83,4 @@ public class ConventionMappedCollectionShouldMapBaseTypes
         dto.Items[1].ShouldBeOfType<SpecificItemDto>();
     }
 }
+

@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class RecognizeDestinationPostfixes : AutoMapperSpecBase
 {
@@ -29,3 +29,4 @@ public class RecognizeDestinationPostfixes : AutoMapperSpecBase
         Mapper.Map<PersonDto>(person).AgeV.ShouldBe(17);
     }
 }
+

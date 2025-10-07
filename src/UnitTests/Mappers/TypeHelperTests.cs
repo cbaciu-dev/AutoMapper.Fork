@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Mappers;
+namespace BKS.CustomMapper.UnitTests.Mappers;
 
 public class TypeHelperTests
 {
@@ -24,3 +24,4 @@ public class TypeHelperTests
         }
     }
 }
+

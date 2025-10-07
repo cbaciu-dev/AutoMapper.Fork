@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.InterfaceMapping;
+namespace BKS.CustomMapper.UnitTests.InterfaceMapping;
 public class InterfaceWithObjectProperty : AutoMapperSpecBase
 {
     protected override MapperConfiguration CreateConfiguration() => new(cfg => cfg.CreateMap<ISourceModel, IDestModel>());
@@ -768,3 +768,4 @@ public class MappingToInterfacesWithPolymorphism : AutoMapperSpecBase
     }
 
 }
+

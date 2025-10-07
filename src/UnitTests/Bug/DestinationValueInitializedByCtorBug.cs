@@ -1,4 +1,4 @@
-namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class DestinationValueInitializedByCtorBug : AutoMapperSpecBase
 {
@@ -54,3 +54,4 @@ public class DestinationValueInitializedByCtorBug : AutoMapperSpecBase
         typeof(AutoMapperMappingException).ShouldNotBeThrownBy(() => Mapper.Map<List<ItemToMap>, List<ItemToMapDto>>(entities));
     }
 }
+

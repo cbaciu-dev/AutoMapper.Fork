@@ -1,5 +1,5 @@
 using System.Collections.ObjectModel;
-namespace AutoMapper.Execution;
+namespace BKS.CustomMapper.Execution;
 [EditorBrowsable(EditorBrowsableState.Never)]
 public static class ObjectFactory
 {

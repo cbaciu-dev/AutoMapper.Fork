@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.UnitTests.Bug;
+namespace BKS.CustomMapper.UnitTests.Bug;
 
 public class EFCollections : AutoMapperSpecBase
 {
@@ -51,3 +51,4 @@ public class EFCollections : AutoMapperSpecBase
         _dest.Children.Count.ShouldBe(2);
     }
 }
+
